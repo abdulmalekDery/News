@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="trashViewModel"
+            type="com.beinmedia.test.features.trashTab.TrashViewModel" />
+    </data>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.trashTab.TrashFragment">
+
+    <com.ernestoyaquello.dragdropswiperecyclerview.DragDropSwipeRecyclerView
+        android:id="@+id/trash_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:item_layout="@layout/item_deleted_news"
+        tools:itemCount="6"
+        />
+    <TextView
+        android:id="@+id/the_deleted_news_list_empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/there_is_no_deleted_items"
+        android:visibility="invisible"/>
+</FrameLayout>
+</layout>

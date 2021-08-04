@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">News</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">News</string>
+    <string name="trash">Trash</string>
+    <string name="add_news_desc">Add your news</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="permanently_delete">delete permanently</string>
+    <string name="delete">delete</string>
+    <string name="network_error">Network Error</string>
+    <string name="required_error">You are missing one of the inputs or the image</string>
+    <string name="search">Search</string>
+    <string name="are_you_sure_you_want_to_delete">Are you sure you want to delete that item?</string>
+    <string name="delete_c">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_data">No Feed Available</string>
+    <string name="add_an_image">Add an image</string>
+    <string name="channel_id">Test News Channel</string>
+    <string name="channel_name">Test News Channel</string>
+    <string name="channel_description">Show local notification when add new news manually</string>
+    <string name="application_not_found">Application not found</string>
+    <string name="there_is_no_deleted_items">There is no deleted items</string>
+
+</resources>
